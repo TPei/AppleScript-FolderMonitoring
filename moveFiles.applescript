@@ -1,0 +1,2 @@
+-- move files from one folder to another
+tell application "Finder" to move items of folder "Camera Uploads" of folder "Dropbox" of folder "Thomas" of folder "Users" of startup disk to folder "Camera Uploads" of folder "Pictures" of folder "Thomas" of folder "Users" of startup disk
